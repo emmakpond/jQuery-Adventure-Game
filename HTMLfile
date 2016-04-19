@@ -1,0 +1,6 @@
+<html>
+<body>
+<div id=message>Welcome! Please enter your name in the box below.</div>
+Name: <input type="text" id="name"></input>
+</body>
+</html>
