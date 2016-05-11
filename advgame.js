@@ -7,12 +7,16 @@ $(document).ready(function(){
         $("#Part1").addClass('Hidden');
         $("#Part2b").removeClass('Hidden');
     });
-    $('#Btn2a1, #Btn2a2, #Btn2a3, #Btn2a4, #Btn2a5, #Btn2a6, #Btn2a7').click(function(){
+    $('#Btn2a2, #Btn2a3, #Btn2a4, #Btn2a5, #Btn2a7').click(function(){
         $("#Part2a").addClass('Hidden');
         $("#Part3a").removeClass('Hidden');
     });
+    $('#Btn2a1, #Btn2a6').click(function(){
+        $("#Part2a").addClass('Hidden');
+        $("#Part3a2").removeClass('Hidden');
+    });
     $('#Btn3a1').click(function(){
-        $("#Part3a").addClass('Hidden');
+        $("#Part3a1").addClass('Hidden');
         $("#Part4a1").removeClass('Hidden');
     });
     $('#Btn3a2').click(function(){
