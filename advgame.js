@@ -1,42 +1,42 @@
 $(document).ready(function(){
     $('#Btn1a').click(function(){
-        $(".Part1").css("display", "none");
-        $(".Part2a").css("display", "inline")
+        $("#Part1").addClass('Hidden');
+        $("#Part2a").removeClass('Hidden');
     });
     $('#Btn1b').click(function(){
-        $(".Part1").css("display", "none");
-        $(".Part2b").css("display", "inline")
+        $("#Part1").addClass('Hidden');
+        $("#Part2b").removeClass('Hidden');
     });
     $('#Btn2a1, #Btn2a2, #Btn2a3, #Btn2a4, #Btn2a5, #Btn2a6, #Btn2a7').click(function(){
-        $(".Part2a").css("display", "none");
-        $(".Part3a").css("display", "inline");
+        $("#Part2a").addClass('Hidden');
+        $("#Part3a").removeClass('Hidden');
     });
     $('#Btn3a1').click(function(){
-        $(".Part3a").css("display", "none");
-        $(".Part4a1").css("display", "inline");
+        $("#Part3a").addClass('Hidden');
+        $("#Part4a1").removeClass('Hidden');
     });
     $('#Btn3a2').click(function(){
-        $(".Part3a").css("display", "none");
-        $(".Part4a2").css("display", "inline");
+        $("#Part3a").addClass('Hidden');
+        $("#Part4a2").removeClass('Hidden');
     });
     $('#Btn4a1').click(function(){
-        $(".Part4a2").css("display", "none");
-        $(".Part5a1").css("display", "inline");
+        $("#Part4a2").addClass('Hidden');
+        $("#Part5a1").removeClass('Hidden');
     });
     $('#Btn2b1').click(function(){
-        $(".Part2b").css("display", "none");
-        $(".Part3b1").css("display", "inline");
+        $("#Part2b").addClass('Hidden');
+        $("#Part3b1").removeClass('Hidden');
     });
     $('#Btn3b1').click(function(){
-        $(".Part3b1").css("display", "none");
-        $(".Part4b1").css("display", "inline");
+        $("#Part3b1").addClass('Hidden');
+        $("#Part4b1").removeClass('Hidden');
     });
-    $('#Btn4b').click(function(){
-        $(".Part4b1").css("display", "none");
-        $(".Part4b2").css("display", "inline");
+    $('#Btn4b1').click(function(){
+        $("#Part4b1").addClass('Hidden');
+        $("#Part5b1").removeClass('Hidden');
     });
     $('#Btn4b2').click(function(){
-        $(".Part4b2").css("display", "none");
-        $(".sandwichscramble").css("display", "inline");
+        $("#Part4b").addClass('Hidden');
+        $("#Part4b2").removeClass(Hidden);
     });
 });
