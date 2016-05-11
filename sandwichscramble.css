@@ -5,34 +5,27 @@
     background-color: blue;
     color: white;
 }
-.Part1 {}
-.Part2a {
+.order{
     display: none;
 }
-.Part2b {
+.firstingredient{
     display: none;
 }
-.Part3a {
+.secondingredient{
     display: none;
 }
-.Part3b1 {
+.wrong{
     display: none;
 }
-.Part3b2 {
+.thirdingredient{
     display: none;
 }
-.Part4a1 {
+.fourthingredient{
     display: none;
 }
-.Part4a2 {
+.fifthingredient{
     display: none;
 }
-.Part4b1 {
-    display: none;
-}
-.Part4b2 {
-    display: none;
-}
-.sandwichscramble{
+.win{
     display: none;
 }

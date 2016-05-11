@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sandwichscramble.css">
+    <script type="text/javascript" src="sandwichscramble.js"></script>
+</head>
+<body>
+<section class="startmessage">
+    <p>In this game you will need to memorize the order of the customer and make their meal. If you mess up, you're fired.</p>
+    <p>Click Start to start the game!</p>
+    <button type="button" id="start" class="blue">Start</button>
+</section>
+<section class="order">
+    <p>The first customer's order is as follows: Remember, you must memorize it in order!</p>
+    <p id="firstitem">Penne Pasta</p>
+    <p id="seconditem">Tomato sauce</p>
+    <p id="thirditem">Parmesan Cheese</p>
+    <p id="fourthitem">Sliced Chicken</p>
+    <p id="fifthitem">Oregano</p>
+    <div>When you're ready, click the button below to make their order.</div>
+    <button type="button" id="readyss">I'm Ready!</button>
+</section>
+<section class="firstingredient">
+    <p>What was their first ingredient?</p>
+    <button type="button" class="wrong1 blue">Bread</button>
+    <button type="button" id="firstright" class="blue">Penne Pasta</button>
+    <button type="button" class="wrong1 blue">Lettuce</button>
+    <button type="button" class="wrong1 blue">Rigatoni Pasta</button>
+    <button type="button" class="wrong1 blue">Sourdough</button>
+</section>
+<section class="secondingredient">
+    <p>Good Job! What was their second ingredient?</p>
+    <button type="button" class="wrong2 blue">Cheese Sauce</button>
+    <button type="button" class="wrong2 blue">Lettuce</button>
+    <button type="button" class="wrong2 blue">Anchovies</button>
+    <button type="button" id="secondright" class="blue">Tomato Sauce</button>
+    <button type="button" class="wrong2 blue">Oregano</button>
+</section>
+<section class="wrong">
+    <p>Oops! You messed up their order and now you got fired. Try Again?</p>
+    <button type="button" class="tryagain blue">Try Again</button>
+</section>
+<section class="thirdingredient">
+    <p>What was their third ingredient?</p>
+    <button type="button" class="wrong3 blue">Kale</button>
+    <button type="button" class="wrong3 blue">String Cheese</button>
+    <button type="button" class="wrong3 blue">Shrimp</button>
+    <button type="button" class="wrong3 blue">Anchovies</button>
+    <button type="button" id="thirdright" class="blue">Parmesan Cheese</button>
+</section>
+<section class="fourthingredient">
+    <p>What was their fourth ingredient?</p>
+    <button type="button" class="wrong4 blue">Pulled Pork</button>
+    <button type="button" class="wrong4 blue">Cilantro</button>
+    <button type="button" id="fourthright" class="blue">Sliced Chicken</button>
+    <button type="button" class="wrong4 blue">Beef</button>
+    <button type="button" class="wrong4 blue">Tomato Sauce</button>
+</section>
+<section class="fifthingredient">
+    <p>Almost there! What was their fifth ingredient?</p>
+    <button type="button" class="wrong5 blue">Parmesan Cheese</button>
+    <button type="button" class="wrong5 blue">Shrimp</button>
+    <button type="button" class="wrong5 blue">Kale</button>
+    <button type="button" class="wrong5 blue">Cilantro</button>
+    <button type="button" id="win" class="blue">Oregano</button>
+</section>
+<section class="win">
+    <p>Congratulations! You won the game!! Wanna play again?</p>
+    <button type="button" class="tryagain blue">Play Again</button>
+</section>
+
+</body>
+</html>
