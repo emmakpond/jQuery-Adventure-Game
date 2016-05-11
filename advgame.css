@@ -5,32 +5,7 @@
     background-color: blue;
     color: white;
 }
-.Part1 {}
-.Part2a {
-    display: none;
-}
-.Part2b {
-    display: none;
-}
-.Part3a {
-    display: none;
-}
-.Part3b1 {
-    display: none;
-}
-.Part3b2 {
-    display: none;
-}
-.Part4a1 {
-    display: none;
-}
-.Part4a2 {
-    display: none;
-}
-.Part4b1 {
-    display: none;
-}
-.Part4b2 {
+.Hidden {
     display: none;
 }
 .sandwichscramble{
