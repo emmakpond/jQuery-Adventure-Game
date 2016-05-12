@@ -334,6 +334,13 @@ SNAKE.Snake = SNAKE.Snake || (function() {
                         alert('Congratulations! You have beaten your previous high score, which was ' + highScore + '.');
                         localStorage.setItem('jsSnakeHighScore', me.snakeLength);
                     }
+                    if (me.snakeLength > 100) {
+                        alert('You finally got past the game!')
+                        $(document).ready(function(){
+                            $('#Part5b1').addClass("Hidden");
+                            $('#Part6b1').removeClass("Hidden");
+                        });
+                    }
                 }
                 recordScore();
                 me.snakeHead.elm.style.zIndex = getNextHighestZIndex(me.snakeBody);
