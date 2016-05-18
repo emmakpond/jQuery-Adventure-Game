@@ -31,6 +31,10 @@ $(document).ready(function(){
         $("#Part2b").addClass('Hidden');
         $("#Part3b1").removeClass('Hidden');
     });
+    $('#Btn2b2').click(function(){
+        $("#Part2b").addClass('Hidden');
+        $("#Part3b2").removeClass('Hidden');
+    });
     $('#Btn3b1').click(function(){
         $("#Part3b1").addClass('Hidden');
         $("#Part4b1").removeClass('Hidden');
