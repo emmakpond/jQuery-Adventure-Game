@@ -2,8 +2,8 @@
     background-color: red;
 }
 .blue {
-    background-color: blue;
-    color: white;
+    background-color: navy;
+    color: aquamarine;
 }
 .order{
     display: none;
@@ -28,4 +28,31 @@
 }
 .win{
     display: none;
+}
+.ingredient{
+    font-family: fantasy;
+    color: cornflowerblue;
+    font-size: larger;
+}
+p{
+    font-family: cursive;
+    font-size: larger;
+    background-color: white;
+}
+*{
+    padding: 40px 40px 40px 40px;
+}
+button {
+    font-family: monospace;
+}
+
+#winmessage{
+    border: dotted;
+    color: white;
+}
+body{
+    background-image: url("restaurant-carousel-1.jpg");
+}
+ul{
+    background-color: white;
 }

@@ -13,67 +13,69 @@
 </head>
 <body>
 <section class="startmessage">
-    <p>In this game you will need to memorize the order of the customer and make their meal. If you mess up, you're fired.</p>
-    <p>Click Start to start the game!</p>
+    <p id="startmessagee">In this game you will need to memorize the order of the customer and make their meal. If you mess up, you're fired. Click Start to start the game!</p>
     <button type="button" id="start" class="blue">Start</button>
 </section>
 <section class="order">
-    <p>The first customer's order is as follows: Remember, you must memorize it in order!</p>
-    <p id="firstitem">Penne Pasta</p>
-    <p id="seconditem">Tomato sauce</p>
-    <p id="thirditem">Parmesan Cheese</p>
-    <p id="fourthitem">Sliced Chicken</p>
-    <p id="fifthitem">Oregano</p>
-    <div>When you're ready, click the button below to make their order.</div>
-    <button type="button" id="readyss">I'm Ready!</button>
+    <p id="ordermessage">The first customer's order is as follows: Remember, you must memorize it in order!</p>
+    <ul>
+        <li class="ingredient" id="firstitem"></li>
+        <li class="ingredient" id="seconditem"></li>
+        <li class="ingredient" id="thirditem"></li>
+        <li class="ingredient" id="fourthitem"></li>
+        <li class="ingredient" id="fifthitem"></li>
+    </ul>
+    <p>When you're ready, click the button below to make their order.</p>
+    <button type="button" class="blue" id="readyss">I'm Ready!</button>
 </section>
 <section class="firstingredient">
     <p>What was their first ingredient?</p>
-    <button type="button" class="wrong1 blue">Bread</button>
-    <button type="button" id="firstright" class="blue">Penne Pasta</button>
-    <button type="button" class="wrong1 blue">Lettuce</button>
-    <button type="button" class="wrong1 blue">Rigatoni Pasta</button>
-    <button type="button" class="wrong1 blue">Sourdough</button>
+    <button type="button" id="wrong11" class="wrong1 blue"></button>
+    <button type="button" id="firstright" class="blue"></button>
+    <button type="button" id="wrong12" class="wrong1 blue"></button>
+    <button type="button" id="wrong13" class="wrong1 blue"></button>
+    <button type="button" id="wrong14" class="wrong1 blue"></button>
 </section>
 <section class="secondingredient">
     <p>Good Job! What was their second ingredient?</p>
-    <button type="button" class="wrong2 blue">Cheese Sauce</button>
-    <button type="button" class="wrong2 blue">Lettuce</button>
-    <button type="button" class="wrong2 blue">Anchovies</button>
-    <button type="button" id="secondright" class="blue">Tomato Sauce</button>
-    <button type="button" class="wrong2 blue">Oregano</button>
+    <button type="button" id="wrong21"class="wrong2 blue"></button>
+    <button type="button" id="wrong22" class="wrong2 blue"></button>
+    <button type="button" id="wrong23" class="wrong2 blue"></button>
+    <button type="button" id="secondright" class="blue"></button>
+    <button type="button" id="wrong24"class="wrong2 blue"></button>
 </section>
 <section class="wrong">
-    <p>Oops! You messed up their order and now you got fired. Try Again?</p>
-    <button type="button" class="tryagain blue">Try Again</button>
+    <p>Oops! You messed up their order and now you got fired. Try Again? If you want to play the same order, click Same Order. If you want a new order, click New Order.</p>
+    <button type="button" class="sameorder blue">Same Order</button>
+    <button type="button" class="neworder blue">New Order</button>
 </section>
 <section class="thirdingredient">
     <p>What was their third ingredient?</p>
-    <button type="button" class="wrong3 blue">Kale</button>
-    <button type="button" class="wrong3 blue">String Cheese</button>
-    <button type="button" class="wrong3 blue">Shrimp</button>
-    <button type="button" class="wrong3 blue">Anchovies</button>
-    <button type="button" id="thirdright" class="blue">Parmesan Cheese</button>
+    <button type="button" id="wrong31" class="wrong3 blue"></button>
+    <button type="button" id="wrong32" class="wrong3 blue"></button>
+    <button type="button" id="wrong33" class="wrong3 blue"></button>
+    <button type="button" id="wrong34" class="wrong3 blue"></button>
+    <button type="button" id="thirdright" class="blue"></button>
 </section>
 <section class="fourthingredient">
     <p>What was their fourth ingredient?</p>
-    <button type="button" class="wrong4 blue">Pulled Pork</button>
-    <button type="button" class="wrong4 blue">Cilantro</button>
-    <button type="button" id="fourthright" class="blue">Sliced Chicken</button>
-    <button type="button" class="wrong4 blue">Beef</button>
-    <button type="button" class="wrong4 blue">Tomato Sauce</button>
+    <button type="button" id="wrong41" class="wrong4 blue"></button>
+    <button type="button" id="wrong42" class="wrong4 blue"></button>
+    <button type="button" id="fourthright" class="blue"></button>
+    <button type="button" id="wrong43" class="wrong4 blue"></button>
+    <button type="button" id="wrong44" class="wrong4 blue"></button>
 </section>
 <section class="fifthingredient">
     <p>Almost there! What was their fifth ingredient?</p>
-    <button type="button" class="wrong5 blue">Parmesan Cheese</button>
-    <button type="button" class="wrong5 blue">Shrimp</button>
-    <button type="button" class="wrong5 blue">Kale</button>
-    <button type="button" class="wrong5 blue">Cilantro</button>
-    <button type="button" id="win" class="blue">Oregano</button>
+    <button type="button" id="wrong51" class="wrong5 blue"></button>
+    <button type="button" id="wrong52" class="wrong5 blue"></button>
+    <button type="button" id="wrong53" class="wrong5 blue"></button>
+    <button type="button" id="wrong54" class="wrong5 blue"></button>
+    <button type="button" id="win" class="blue"></button>
 </section>
 <section class="win">
-    <p>Congratulations! You won the game!! Wanna play again?</p>
-    <button type="button" class="tryagain blue">Play Again</button>
+    <p id="winmessage">Congratulations! You won the game!! Wanna play again?</p>
+    <button type="button" class="neworder blue">Play Again</button>
 </section>
 
 </body>
