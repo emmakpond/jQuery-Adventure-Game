@@ -86,10 +86,13 @@ $(document).ready(function(){
         $(".startmessage").css("display", "none");
         $(".order").css("display", "inline");
         $("body").css("background-image", "url('menu.jpg')")
+        $("body").css("background-size", "contain")
     });
     $('#readyss').click(function(){
         $(".order").css("display", "none");
         $(".firstingredient").css("display", "inline");
+        $("body").css("background-image", "url('plate.jpg')")
+        $("body").css("background-size", "cover")
     });
     $('#firstright').click(function(){
         $(".firstingredient").css("display", "none");
@@ -97,24 +100,28 @@ $(document).ready(function(){
     });
     $('.wrong1').click(function(){
         $(".firstingredient").css("display", "none");
-        $(".wrong").css("display", "inline");
+        $("#wrong").css("display", "inline");
     });
     $('.wrong2').click(function(){
         $(".secondingredient").css("display", "none");
-        $(".wrong").css("display", "inline");
+        $("#wrong").css("display", "inline");
     });
     $('.wrong3').click(function() {
         $(".thirdingredient").css("display", "none");
-        $(".wrong").css("display", "inline");
+        $("#wrong").css("display", "inline");
     });
     $('.wrong4').click(function() {
         $(".fourthingredient").css("display", "none");
-        $(".wrong").css("display", "inline");
+        $("#wrong").css("display", "inline");
     });
     $('.wrong5').click(function() {
         $(".fifthingredient").css("display", "none");
-        $(".wrong").css("display", "inline");
+        $("#wrong").css("display", "inline");
     });
+    $('.wrong').click(function(){
+        $("body").css("background-image", "url('face-palm.jpg')")
+        $("body").css("background-size", "1300px")
+    })
     $('#secondright').click(function() {
         $(".secondingredient").css("display", "none");
         $(".thirdingredient").css("display", "inline");
@@ -132,9 +139,10 @@ $(document).ready(function(){
         $(".win").css("display", "inline");
     });
     $('.sameorder').click(function() {
-        $(".wrong").css("display", "none");
+        $("#wrong").css("display", "none");
         $(".win").css("display", "none");
         $(".startmessage").css("display", "inline")
+        $("body").css("background-image", "url('restaurant-carousel-1.jpg')")
     });
     $('.neworder').click(function(){
         location.reload();

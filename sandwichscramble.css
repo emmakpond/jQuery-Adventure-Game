@@ -14,7 +14,7 @@
 .secondingredient{
     display: none;
 }
-.wrong{
+#wrong{
     display: none;
 }
 .thirdingredient{
@@ -52,6 +52,7 @@ button {
 }
 body{
     background-image: url("restaurant-carousel-1.jpg");
+    background-size: 1500px;
 }
 ul{
     background-color: white;
