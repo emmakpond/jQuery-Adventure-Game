@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $('#BtnStartPage').click(function(){
+        $("#StartPage").addClass('Hidden');
+        $("#Part1").removeClass('Hidden');
+    });
     $('#Btn1a').click(function(){
         $("#Part1").addClass('Hidden');
         $("#Part2a").removeClass('Hidden');
