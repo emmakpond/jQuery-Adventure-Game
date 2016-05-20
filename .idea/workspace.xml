@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="255517a8-f0fc-4176-aea6-3247570003bb" name="Default" comment="">
 <<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Snake.js" afterPath="$PROJECT_DIR$/Snake.js" />
+=======
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advgame.html" afterPath="$PROJECT_DIR$/advgame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandwichscramble.css" afterPath="$PROJECT_DIR$/sandwichscramble.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandwichscramble.html" afterPath="$PROJECT_DIR$/sandwichscramble.html" />
@@ -10,8 +13,8 @@
 =======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logicgame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advgame.css" afterPath="$PROJECT_DIR$/advgame.css" />
+>>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advgame.html" afterPath="$PROJECT_DIR$/advgame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advgame.js" afterPath="$PROJECT_DIR$/advgame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 >>>>>>> origin/master
     </list>
@@ -44,8 +47,8 @@
       <file leaf-file-name="advgame.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advgame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-48.291668">
-              <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+            <state vertical-scroll-proportion="-13.291667">
+              <caret line="222" column="13" selection-start-line="222" selection-start-column="13" selection-end-line="222" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -73,31 +76,35 @@
         <entry file="file://$PROJECT_DIR$/advgame.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="14" />
+=======
               <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+>>>>>>> origin/master
 >>>>>>> origin/master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Snake.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Snake.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Snake.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="339" column="37" selection-start-line="339" selection-start-column="36" selection-end-line="339" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.33284023">
+              <caret line="336" column="41" selection-start-line="336" selection-start-column="41" selection-end-line="336" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1463078163000" expanded="true" signature="25407:25420" placeholder="..." />
+                <marker date="1463682010000" expanded="true" signature="25407:25420" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logicgame.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logicgame.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logicgame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87197727">
-              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="134" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc;n#fillall#0" expanded="false" />
               </folding>
@@ -142,13 +149,16 @@
         <option value="$PROJECT_DIR$/sandwichscramble.html" />
         <option value="$USER_HOME$/WebstormProjects/untitled/AdvGame.html" />
         <option value="$PROJECT_DIR$/Snake.css" />
-        <option value="$PROJECT_DIR$/Snake.js" />
         <option value="$PROJECT_DIR$/maze.js" />
         <option value="$PROJECT_DIR$/advgame.js" />
         <option value="$PROJECT_DIR$/advgame.css" />
         <option value="$PROJECT_DIR$/logicgame.css" />
-        <option value="$PROJECT_DIR$/advgame.html" />
         <option value="$PROJECT_DIR$/logicgame.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/advgame.html" />
+        <option value="$PROJECT_DIR$/Snake.js" />
+=======
+>>>>>>> origin/master
 >>>>>>> origin/master
       </list>
     </option>
@@ -189,6 +199,21 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jQuery-Adventure-Game">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,21 +230,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="jQuery-Adventure-Game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jQuery-Adventure-Game">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -295,7 +305,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29045308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -304,7 +318,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -795,6 +813,22 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/logicgame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="134" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc;n#fillall#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advgame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.291667">
+          <caret line="222" column="13" selection-start-line="222" selection-start-column="13" selection-end-line="222" selection-end-column="13" />
+=======
     <entry file="file://$PROJECT_DIR$/sandwichscramble.css">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -803,6 +837,7 @@
 =======
         <state vertical-scroll-proportion="-48.291668">
           <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+>>>>>>> origin/master
 >>>>>>> origin/master
           <folding />
         </state>
@@ -817,7 +852,11 @@
     <entry file="file://$PROJECT_DIR$/advgame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="14" />
+=======
           <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+>>>>>>> origin/master
 >>>>>>> origin/master
           <folding />
         </state>
@@ -832,21 +871,11 @@
 =======
     <entry file="file://$PROJECT_DIR$/Snake.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="339" column="37" selection-start-line="339" selection-start-column="36" selection-end-line="339" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.33284023">
+          <caret line="336" column="41" selection-start-line="336" selection-start-column="41" selection-end-line="336" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1463078163000" expanded="true" signature="25407:25420" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logicgame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87197727">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc;n#fillall#0" expanded="false" />
+            <marker date="1463682010000" expanded="true" signature="25407:25420" placeholder="..." />
           </folding>
 >>>>>>> origin/master
         </state>

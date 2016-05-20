@@ -114,7 +114,6 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             var me = this,
                 playingBoard = config.playingBoard,
                 myId = instanceNumber++,
-                growthIncr = 5,
                 moveQueue = [], // a queue that holds the next moves of the snake
                 currentDirection = 1, // 0: up, 1: left, 2: down, 3: right
                 columnShift = [0, 1, 0, -1],
@@ -334,7 +333,6 @@ SNAKE.Snake = SNAKE.Snake || (function() {
                         alert('Congratulations! You have beaten your previous high score, which was ' + highScore + '.');
                         localStorage.setItem('jsSnakeHighScore', me.snakeLength);
                     }
-                    if (me.snakeLength > 100) {
                         alert('You finally got past the game!')
                         $(document).ready(function(){
                             $('#Part5b1').addClass("Hidden");
