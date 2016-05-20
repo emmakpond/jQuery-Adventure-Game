@@ -16,12 +16,12 @@ $(document).ready(function(){
         $("#Part3a2").removeClass('Hidden');
     });
     $('#Btn3a1').click(function(){
-        $("#Part3a1").addClass('Hidden');
-        $("#Part4a1").removeClass('Hidden');
+        $("#Part3a").addClass('Hidden');
+        $(".Part4a1").removeClass('Hidden');
     });
     $('#Btn3a2').click(function(){
         $("#Part3a").addClass('Hidden');
-        $("#Part4a2").removeClass('Hidden');
+        $(".Part4a2").removeClass('Hidden');
     });
     $('#Btn4a1').click(function(){
         $("#Part4a2").addClass('Hidden');
@@ -33,7 +33,7 @@ $(document).ready(function(){
     });
     $('#Btn2b2').click(function(){
         $("#Part2b").addClass('Hidden');
-        $("#Part3b2").removeClass('Hidden');
+        $(".Part3b2").removeClass('Hidden');
     });
     $('#Btn3b1').click(function(){
         $("#Part3b1").addClass('Hidden');
@@ -47,4 +47,7 @@ $(document).ready(function(){
         $("#Part4b").addClass('Hidden');
         $("#Part4b2").removeClass(Hidden);
     });
+    $('#playagain').click(function(){
+        location.reload();
+    })
 });

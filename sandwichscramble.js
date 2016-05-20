@@ -1,4 +1,4 @@
-var foods=['Penne Pasta', 'Parmesan Cheese', 'Anchovies', 'Kale', 'Cilantro', 'Bread', 'Cod', 'Turkey', 'Sliced Chicken', 'Apple Slices', 'Mustard', 'Mayonnaise', 'Ketchup', 'Chocolate', 'Shrimp']
+var foods=['Penne Pasta', 'Parmesan Cheese', 'Anchovies', 'Kale', 'Cilantro', 'Bread', 'Cod', 'Turkey', 'Sliced Chicken', 'Apple Slices', 'Mustard', 'Mayonnaise', 'Ketchup', 'Chocolate', 'Shrimp', 'Hot Sauce', 'Burger', 'Cheddar Cheese', 'Pine Nuts', 'Sesame Seeds', 'Cashews', 'Tuna']
 Array.prototype.shuffle = function() {
     var input = this;
 
@@ -13,7 +13,7 @@ Array.prototype.shuffle = function() {
     return input;
 }
 $(document).ready(function(){
-    var indexes= [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+    var indexes= [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
     var firstindex=indexes[Math.floor((Math.random()*indexes.length))];
     indexes.splice(indexes.indexOf(firstindex),1);
     var secondindex=indexes[Math.floor((Math.random()*indexes.length))];
@@ -36,7 +36,7 @@ $(document).ready(function(){
     document.getElementById('fifthitem').innerHTML=fifthingredient;
     document.getElementById('wrong11').innerHTML=foods[Math.floor((Math.random()*foods.length))];
 
-    var indexeswrong1=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+    var indexeswrong1=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
     indexeswrong1.splice(firstindex, 1);
     indexeswrong1.shuffle();
 //    $("#wrong11").text(foods[indexeswrong1[1]]);
@@ -45,7 +45,7 @@ $(document).ready(function(){
     document.getElementById('wrong13').innerHTML=foods[indexeswrong1[3]];
     document.getElementById('wrong14').innerHTML=foods[indexeswrong1[4]];
 
-    var indexeswrong2=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+    var indexeswrong2=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
     indexeswrong2.splice(secondindex, 1);
     indexeswrong2.shuffle();
     document.getElementById('wrong21').innerHTML=foods[indexeswrong2[1]];
@@ -53,7 +53,7 @@ $(document).ready(function(){
     document.getElementById('wrong23').innerHTML=foods[indexeswrong2[3]];
     document.getElementById('wrong24').innerHTML=foods[indexeswrong2[4]];
 
-    var indexeswrong3=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+    var indexeswrong3=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
     indexeswrong3.splice(thirdindex, 1);
     indexeswrong3.shuffle();
     document.getElementById('wrong31').innerHTML=foods[indexeswrong3[1]];
@@ -61,7 +61,7 @@ $(document).ready(function(){
     document.getElementById('wrong33').innerHTML=foods[indexeswrong3[3]];
     document.getElementById('wrong34').innerHTML=foods[indexeswrong3[4]];
 
-    var indexeswrong4=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+    var indexeswrong4=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
     indexeswrong4.splice(fourthindex, 1);
     indexeswrong4.shuffle();
     document.getElementById('wrong41').innerHTML=foods[indexeswrong4[1]];
@@ -69,7 +69,7 @@ $(document).ready(function(){
     document.getElementById('wrong43').innerHTML=foods[indexeswrong4[3]];
     document.getElementById('wrong44').innerHTML=foods[indexeswrong4[4]];
 
-    var indexeswrong5=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+    var indexeswrong5=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
     indexeswrong5.splice(fifthindex, 1);
     indexeswrong5.shuffle();
     document.getElementById('wrong51').innerHTML=foods[indexeswrong5[1]];
