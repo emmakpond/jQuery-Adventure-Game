@@ -46,7 +46,7 @@
     <div>Play Sandwich Scramble!</div>
     <a class="btn btn-primary" href="sandwichscramble.html">Sandwich Scramble!</a>
 </section>
-<section id="White-House:1" class="Hidden">
+<section id="White-House1" class="Hidden">
     <div>You're in the White House... After an eight hour flight and $400 later, idiot</div>
 </section>
 <section id="Line-Long" class="Hidden">
@@ -60,12 +60,12 @@
     <button type="button" id="Btn4b1">Snake Game: Get a length of more than 100 to get past game</button>
 </section>
 
-<section id="Minigame:Home" class="Hidden">
+<section id="Minigame-Home" class="Hidden">
     <div>Click on the minigame you want to play!</div>
     <a class="btn btn-primary" href="sandwichscramble.html">Sandwich Scramble!</a>
     <button type="button" id="Btn4b3" class="blue">Snake!</button>
 </section>
-<section id="Game:Snake" class="Hidden">
+<section id="Game-Snake" class="Hidden">
     <link rel=stylesheet id=style type=text/css href=Snake.css/>
     <div id="mode-wrapper">Select which mode you would like to play in.<br /><button id="Easy">Easy</button><br /><button id="Medium">Medium</button><br /><button id="Difficult">Difficult</button></div>
     <script>
@@ -90,9 +90,9 @@
         });
     </script>
 </section>
-<section id="Game:TicTacToe" class="Hidden">
+<section id="Game-TicTacToe" class="Hidden">
     <div>Next minigame! Tic Tac Toe</div>
-    <script type="text/javascript" src="logicgame.js"></script>
+    <script type="text/javascript" src="tic-tac-toe.js"></script>
     <center>
         <form name=game>
             <table border=0>
@@ -131,11 +131,11 @@
         </form>
     </center>
 </section>
-<section class="startmessage">
+<section class="startmessage Hidden">
     <p id="startmessagee">In this game you will need to memorize the order of the customer and make their meal. If you mess up, you're fired. Click Start to start the game!</p>
     <button type="button" id="start" class="blue">Start</button>
 </section>
-<section class="order">
+<section class="order Hidden">
     <p id="ordermessage">The first customer's order is as follows: Remember, you must memorize it in order! Also, don't judge their food taste, come on.</p>
     <ul>
         <li class="ingredient" id="firstitem"></li>
@@ -147,7 +147,7 @@
     <p>When you're ready, click the button below to make their order.</p>
     <button type="button" class="blue" id="readyss">I'm Ready!</button>
 </section>
-<section class="firstingredient">
+<section class="firstingredient Hidden">
     <p>What was their first ingredient?</p>
     <button type="button" id="wrong11" class="wrong1 wrong blue"></button>
     <button type="button" id="firstright" class="blue"></button>
@@ -155,7 +155,7 @@
     <button type="button" id="wrong13" class="wrong1 wrong blue"></button>
     <button type="button" id="wrong14" class="wrong1 wrong blue"></button>
 </section>
-<section class="secondingredient">
+<section class="secondingredient Hidden">
     <p>Good Job! What was their second ingredient?</p>
     <button type="button" id="wrong21"class="wrong2 wrong blue"></button>
     <button type="button" id="wrong22" class="wrong2 wrong blue"></button>
@@ -163,12 +163,12 @@
     <button type="button" id="secondright" class="blue"></button>
     <button type="button" id="wrong24"class="wrong2 wrong blue"></button>
 </section>
-<section id="wrong">
+<section class="wrong Hidden">
     <p>Oops! You messed up their order and now you got fired. Try Again? If you want to play the same order, click Same Order. If you want a new order, click New Order.</p>
     <button type="button" class="sameorder blue">Same Order</button>
     <button type="button" class="neworder blue">New Order</button>
 </section>
-<section class="thirdingredient">
+<section class="thirdingredient Hidden">
     <p>What was their third ingredient?</p>
     <button type="button" id="wrong31" class="wrong3 wrong blue"></button>
     <button type="button" id="wrong32" class="wrong3 wrong blue"></button>
@@ -176,7 +176,7 @@
     <button type="button" id="wrong34" class="wrong3 wrong blue"></button>
     <button type="button" id="thirdright" class="blue"></button>
 </section>
-<section class="fourthingredient">
+<section class="fourthingredient Hidden">
     <p>What was their fourth ingredient?</p>
     <button type="button" id="wrong41" class="wrong4 wrong blue"></button>
     <button type="button" id="wrong42" class="wrong4 wrong blue"></button>
@@ -184,7 +184,7 @@
     <button type="button" id="wrong43" class="wrong4 wrong blue"></button>
     <button type="button" id="wrong44" class="wrong4 wrong blue"></button>
 </section>
-<section class="fifthingredient">
+<section class="fifthingredient Hidden">
     <p>Almost there! What was their fifth ingredient?</p>
     <button type="button" id="wrong51" class="wrong5 wrong blue"></button>
     <button type="button" id="wrong52" class="wrong5 wrong blue"></button>
@@ -192,7 +192,7 @@
     <button type="button" id="wrong54" class="wrong5 wrong blue"></button>
     <button type="button" id="win" class="blue"></button>
 </section>
-<section class="win">
+<section class="win Hidden">
     <p id="winmessage">Congratulations! You won the game!! Wanna play again?</p>
     <button type="button" class="neworder blue">Play Again</button>
 </section>

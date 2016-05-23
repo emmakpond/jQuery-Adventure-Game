@@ -337,8 +337,8 @@ SNAKE.Snake = SNAKE.Snake || (function() {
                     if (me.snakeLength > 50) {
                         alert('You finally got past the game!')
                         $(document).ready(function(){
-                            $('#Part5b1').addClass("Hidden");
-                            $('#Part6b1').removeClass("Hidden");
+                            $('#Game-Snake').addClass("Hidden");
+                            $('#Game-TicTacToe').removeClass("Hidden");
                         });
                     }
                 }

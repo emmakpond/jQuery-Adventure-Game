@@ -1,10 +1,10 @@
-var x = "x.jpg";
+var x = "X";
 // Location of where you uploaded your site's x.jpg image
 
-var o = "o.jpg";
+var o = "O";
 // Location of where you uploaded your site's o.jpg image
 
-var blank = "blank.jpg";
+var blank = "";
 // Location of where you uploaded your site's blank.jpg image
 
 var pause = 0;
