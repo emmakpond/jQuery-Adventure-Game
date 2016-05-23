@@ -137,6 +137,7 @@ $(document).ready(function(){
     $('#win').click(function() {
         $(".fifthingredient").css("display", "none");
         $(".win").css("display", "inline");
+        $("body").css("background-image", "url('fw.jpg')")
     });
     $('.sameorder').click(function() {
         $("#wrong").css("display", "none");

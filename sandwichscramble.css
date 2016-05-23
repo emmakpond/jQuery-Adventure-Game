@@ -31,16 +31,17 @@
 }
 .ingredient{
     font-family: fantasy;
-    color: cornflowerblue;
+    color: midnightblue;
     font-size: larger;
 }
 p{
     font-family: cursive;
     font-size: larger;
     background-color: white;
+    color: steelblue;
 }
 *{
-    padding: 40px 40px 40px 40px;
+    padding:40px 40px 40px 40px;
 }
 button {
     font-family: monospace;
@@ -48,12 +49,11 @@ button {
 
 #winmessage{
     border: dotted;
-    color: white;
 }
 body{
     background-image: url("restaurant-carousel-1.jpg");
     background-size: 1500px;
 }
 ul{
-    background-color: white;
+    background-color: #aba9be
 }
