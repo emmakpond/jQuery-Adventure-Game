@@ -1,10 +1,10 @@
-var x = "X";
+var x = "http://anvpc.org/wp-content/uploads/2014/09/x-mark-512.png";
 // Location of where you uploaded your site's x.jpg image
 
-var o = "O";
+var o = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/O-Jolle_red.svg/540px-O-Jolle_red.svg.png";
 // Location of where you uploaded your site's o.jpg image
 
-var blank = "";
+var blank = "http://mroliverblank.com/wp-content/uploads/2012/05/headline-lockup.png";
 // Location of where you uploaded your site's blank.jpg image
 
 var pause = 0;
