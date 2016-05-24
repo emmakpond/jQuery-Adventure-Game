@@ -203,13 +203,20 @@ function ended() {
 }
 function process() {
     logicOne();
-    if (all==1){ alert("You won, congratulations!"); wn++; }
-    if (all==2){ alert("Gotcha!  I win!"); ls++; }
-    if (all==3){ alert("We tied."); ts++; }
+    if (all==1){ wn++; }
+    if (all==2){ ls++; }
+    if (all==3){ ts++; }
     if (all!=0) {
         document.game.you.value = wn;
         document.game.computer.value = ls;
         document.game.ties.value = ts;
+    }
+    if (wn >= 5){
+        alert("You got past tic tac toe, you must be at least as smart as that chicken to do that!");
+        $(document).ready(function(){
+            $('#Game-TicTacToe').addClass('Hidden');
+            $('#Game-Next').removeClass('Hidden');
+    });
     }
 }
 function playAgain() {

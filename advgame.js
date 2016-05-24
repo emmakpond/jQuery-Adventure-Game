@@ -15,8 +15,8 @@ $(document).ready(function(){
         $("body").css("background-image", "url('shattuck.jpg')")
     });
     $('#Btn2a2, #Btn2a3, #Btn2a4, #Btn2a7').click(function(){
-        $("#PartLunch").addClass('Hidden');
-        $("#PartLunch2").removeClass('Hidden');
+        $("#Lunch").addClass('Hidden');
+        $("#Lunch2").removeClass('Hidden');
     });
     $('#Btn2a1, #Btn2a6').click(function(){
         $("#Lunch").addClass('Hidden');

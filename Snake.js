@@ -335,7 +335,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
                         localStorage.setItem('jsSnakeHighScore', me.snakeLength);
                     }
                     if (me.snakeLength > 50) {
-                        alert('You finally got past the game!')
+                        alert('You finally got past the game!');
                         $(document).ready(function(){
                             $('#Game-Snake').addClass("Hidden");
                             $('#Game-TicTacToe').removeClass("Hidden");
