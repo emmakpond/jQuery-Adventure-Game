@@ -4,7 +4,7 @@ var x = "http://anvpc.org/wp-content/uploads/2014/09/x-mark-512.png";
 var o = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/O-Jolle_red.svg/540px-O-Jolle_red.svg.png";
 // Location of where you uploaded your site's o.jpg image
 
-var blank = "http://mroliverblank.com/wp-content/uploads/2012/05/headline-lockup.png";
+var blank = "blank.png";
 // Location of where you uploaded your site's blank.jpg image
 
 var pause = 0;
@@ -215,7 +215,7 @@ function process() {
         alert("You got past tic tac toe, you must be at least as smart as that chicken to do that!");
         $(document).ready(function(){
             $('#Game-TicTacToe').addClass('Hidden');
-            $('#Game-Next').removeClass('Hidden');
+            $('#Game-Dots').removeClass('Hidden');
     });
     }
 }

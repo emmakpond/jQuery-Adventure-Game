@@ -62,6 +62,7 @@ $(document).ready(function(){
         $("#Dimension").addClass('Hidden');
         $("#Game-Snake").removeClass('Hidden');
     });
+
     $('#Btn4b2').click(function(){
         $("#Part4b").addClass('Hidden');
         $("#Part4b2").removeClass('Hidden');
