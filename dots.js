@@ -28,6 +28,17 @@ function dots_ini()
         }
     }
 }
+if (document.f.comp.value + document.f.plyr.value >= 49) {
+    if (document.f.comp.value >= document.f.plyr.value) {
+        alert("You didn't win. Now you have to play again");
+
+    }
+    else if (document.f.comp.value < document.f.plyr.value) {
+        alert("You won! Next minigame");
+        $(document).ready(function () {
+        });
+    }
+}
 function convert(t)
 {
     if(t1==0)t1=eval(t);else t2=eval(t);
