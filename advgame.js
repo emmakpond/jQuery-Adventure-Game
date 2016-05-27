@@ -13,6 +13,9 @@ Array.prototype.shuffle = function() {
     }
     return input;
 };
+$(document).ready(function(){
+
+});
 //start adventure game js//
 $(document).ready(function(){
     var body=$("body");
@@ -82,6 +85,8 @@ $(document).ready(function(){
         $("#Dimension").addClass('Hidden');
         $("#Game-Snake").removeClass('Hidden');
         $(body).css("background-image", "none");
+        $(body).css("background-color", "white");
+        $("*").css("padding", "0 0 0 0");
     });
     $('#Btn4b2').click(function(){
         $("#Part4b").fadeOut();

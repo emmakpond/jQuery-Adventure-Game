@@ -22,7 +22,7 @@ p{
     background-color: white;
     color: steelblue;
 }
-*{
+* {
     padding:40px 40px 40px 40px;
 }
 button {
@@ -31,6 +31,9 @@ button {
 
 #winmessage{
     border: dotted;
+}
+
+#Game-Snake {
 }
 body{
     background-color: plum;
