@@ -77,14 +77,11 @@ $(document).ready(function(){
         $("#Part4b1").delay(500).fadeIn();
     });
     $('#Btn4b1').click(function(){
-<<<<<<< HEAD
         $("#Dimension").fadeOut();
         $("#Game-Snake").delay(500).fadeIn();
-=======
         $("#Dimension").addClass('Hidden');
         $("#Game-Snake").removeClass('Hidden');
         $(body).css("background-image", "none");
->>>>>>> origin/master
     });
     $('#Btn4b2').click(function(){
         $("#Part4b").fadeOut();
