@@ -19,10 +19,6 @@ $(document).ready(function(){
 //start adventure game js//
 $(document).ready(function(){
     var body=$("body");
-    $('#BtnStartPage').click(function(){
-        $("#StartPage").addClass('Hidden');
-        $("#Home").removeClass('Hidden');
-    });
     $('#Btn1a').click(function(){
         $("#Home").addClass('Hidden');
         $("#Lunch").removeClass('Hidden');
