@@ -19,17 +19,6 @@ $(document).ready(function(){
 //start adventure game js//
 $(document).ready(function(){
     var body=$("body");
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-    $()
->>>>>>> origin/master
-    $('#BtnStartPage').click(function(){
-        $("#StartPage").fadeOut();
-        $("#Home").delay(500).fadeIn();
-    });
->>>>>>> origin/master
     $('#Btn1a').click(function(){
         $("#Home").fadeOut();
         $("#Lunch").delay(500).fadeIn();
