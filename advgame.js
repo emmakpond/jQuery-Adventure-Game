@@ -20,7 +20,11 @@ $(document).ready(function(){
 $(document).ready(function(){
     var body=$("body");
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+    $()
+>>>>>>> origin/master
     $('#BtnStartPage').click(function(){
         $("#StartPage").fadeOut();
         $("#Home").delay(500).fadeIn();
