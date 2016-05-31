@@ -19,6 +19,7 @@ $(document).ready(function(){
 //start adventure game js//
 $(document).ready(function(){
     var body=$("body");
+    $()
     $('#BtnStartPage').click(function(){
         $("#StartPage").fadeOut();
         $("#Home").delay(500).fadeIn();
