@@ -25,11 +25,11 @@ $(document).ready(function(){
     var thirdingredient=foods[chosen[2]];
     var fourthingredient=foods[chosen[3]];
     var fifthingredient=foods[chosen[4]];
-    document.getElementById('firstitem').innerHTML=firstingredient;
-    document.getElementById('seconditem').innerHTML=secondingredient;
-    document.getElementById('thirditem').innerHTML=thirdingredient;
-    document.getElementById('fourthitem').innerHTML=fourthingredient;
-    document.getElementById('fifthitem').innerHTML=fifthingredient;
+    $("#firstitem").text(firstingredient);
+    $("#seconditem").text(secondingredient);
+    $("#thirditem").text(thirdingredient);
+    $("#fourthitem").text(fourthingredient);
+    $("#fifthitem").text(fifthingredient);
 
     for (var e=1;e<6;e++){
         var indexeswrong=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
@@ -42,74 +42,78 @@ $(document).ready(function(){
 
         }
     }
-    document.getElementById('firstright').innerHTML=firstingredient;
-    document.getElementById('secondright').innerHTML=secondingredient;
-    document.getElementById('thirdright').innerHTML=thirdingredient;
-    document.getElementById('fourthright').innerHTML=fourthingredient;
-    document.getElementById('win').innerHTML=fifthingredient;
+    var firstright=$("#firstright");
+    var secondright=$("#secondright");
+    var thirdright=$("#thirdright");
+    var fourthright=$("#fourthright");
+    var win=$("#win");
+    $(firstright).text(firstingredient);
+    $(secondright).text(secondingredient);
+    $(thirdright).text(thirdingredient);
+    $(fourthright).text(fourthingredient);
+    $(win).text(fifthingredient);
 
 
     $('#start').click(function(){
-        $(".startmessage").css("display", "none");
-        $(".order").css("display", "inline");
-        $(body).css("background-image", "url('menu.jpg')");
+        $(".startmessage").fadeOut();
+        $(".order").delay(500).fadeIn();
         $(body).css("background-size", "contain")
+        $(body).css("background-image", "url('menu.jpg')");
     });
     $('#readyss').click(function(){
-        $(".order").css("display", "none");
-        $(".firstingredient").css("display", "inline");
+        $(".order").fadeOut();
+        $(".firstingredient").delay(500).fadeIn();
         $(body).css("background-image", "url('plate.jpg')");
         $(body).css("background-size", "cover")
     });
-    $('#firstright').click(function(){
-        $(".firstingredient").css("display", "none");
-        $(".secondingredient").css("display", "inline");
+    $(firstright).click(function(){
+        $(".firstingredient").fadeOut();
+        $(".secondingredient").delay(500).fadeIn();
     });
     $('.wrong1').click(function(){
-        $(".firstingredient").css("display", "none");
-        $("#wrong").css("display", "inline");
+        $(".firstingredient").fadeOut();
+        $(".wrongmessage").delay(500).fadeIn();
     });
     $('.wrong2').click(function(){
-        $(".secondingredient").css("display", "none");
-        $("#wrong").css("display", "inline");
+        $(".secondingredient").fadeOut();
+        $(".wrongmessage").delay(500).fadeIn();
     });
     $('.wrong3').click(function() {
-        $(".thirdingredient").css("display", "none");
-        $("#wrong").css("display", "inline");
+        $(".thirdingredient").fadeOut();
+        $(".wrongmessage").delay(500).fadeIn();
     });
     $('.wrong4').click(function() {
-        $(".fourthingredient").css("display", "none");
-        $("#wrong").css("display", "inline");
+        $(".fourthingredient").fadeOut();
+        $(".wrongmessage").delay(500).fadeIn();
     });
     $('.wrong5').click(function() {
-        $(".fifthingredient").css("display", "none");
-        $("#wrong").css("display", "inline");
+        $(".fifthingredient").fadeOut();
+        $(".wrongmessage").delay(500).fadeIn();
     });
     $('.wrong').click(function(){
         $(body).css("background-image", "url('face-palm.jpg')");
         $(body).css("background-size", "1300px")
     });
-    $('#secondright').click(function() {
-        $(".secondingredient").css("display", "none");
-        $(".thirdingredient").css("display", "inline");
+    $(secondright).click(function() {
+        $(".secondingredient").fadeOut();
+        $(".thirdingredient").delay(500).fadeIn();
     });
-    $('#thirdright').click(function() {
-        $(".thirdingredient").css("display", "none");
-        $(".fourthingredient").css("display", "inline");
+    $(thirdright).click(function() {
+        $(".thirdingredient").fadeOut();
+        $(".fourthingredient").delay(500).fadeIn();
     });
-    $('#fourthright').click(function() {
-        $(".fourthingredient").css("display", "none");
-        $(".fifthingredient").css("display", "inline");
+    $(fourthright).click(function() {
+        $(".fourthingredient").fadeOut();
+        $(".fifthingredient").delay(500).fadeIn();
     });
-    $('#win').click(function() {
-        $(".fifthingredient").css("display", "none");
-        $(".win").css("display", "inline");
+    $(win).click(function() {
+        $(".fifthingredient").fadeOut();
+        $(".win").delay(500).fadeIn();
         $("body").css("background-image", "url('fw.jpg')")
     });
     $('.sameorder').click(function() {
-        $("#wrong").css("display", "none");
-        $(".win").css("display", "none");
-        $(".startmessage").css("display", "inline");
+        $(".wrongmessage").fadeOut();
+        $(".startmessage").delay(500).fadeIn();
         $("body").css("background-image", "url('restaurant-carousel-1.jpg')")
     });
     $('.neworder').click(function(){
