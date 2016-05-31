@@ -29,14 +29,14 @@ function dots_ini()
     }
 }
 if (document.f.comp.value + document.f.plyr.value >= 49) {
-    if (document.f.comp.value >= document.f.plyr.value) {
-        alert("You didn't win. Now you have to play again");
-
-    }
-    else if (document.f.comp.value < document.f.plyr.value) {
+    if (document.f.comp.value < document.f.plyr.value) {
         alert("You won! Next minigame");
         $(document).ready(function () {
         });
+    }
+    else if (document.f.comp.value >= document.f.plyr.value) {
+        alert("You didn't win. Now you have to play again");
+
     }
 }
 function convert(t)
