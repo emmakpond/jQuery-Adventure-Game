@@ -4,10 +4,6 @@ $(document).ready(function(){
 //start adventure game js//
 $(document).ready(function(){
     var body=$("body");
-    $('#BtnStartPage').click(function(){
-        $("#StartPage").fadeOut();
-        $("#Home").delay(500).fadeIn();
-    });
     $('#Btn1a').click(function(){
         $("#Home").fadeOut();
         $("#Lunch").delay(500).fadeIn();
