@@ -1,0 +1,43 @@
+.Hidden {
+    display: none;
+}
+div{
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: navy;
+    color: aquamarine;
+}
+.ingredient{
+    font-family: fantasy;
+    color: midnightblue;
+    font-size: larger;
+}
+p{
+    font-family: cursive;
+    font-size: larger;
+    background-color: white;
+    color: steelblue;
+}
+body{
+    background-color: plum;
+}
+* {
+    padding:40px 40px 40px 40px;
+}
+button {
+    font-family: monospace;
+}
+
+#winmessage{
+    border: dotted;
+}
+
+#Game-Snake {
+}
+ul{
+    background-color: #aba9be
+}
