@@ -121,3 +121,6 @@ body {
     text-align: center;
     display: none;
 }
+.Hidden {
+    display: none;
+}
