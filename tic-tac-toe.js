@@ -71,7 +71,7 @@ function logicTwo() {
     if ((g== 0)&&(h==2)&&(i==2)&&(temp=="")) temp="G";
     if ((c==2)&&(f==2)&&(i== 0)&&(temp=="")) temp="I";
     if ((c==2)&&(f== 0)&&(i==2)&&(temp=="")) temp="F";
-    if ((c== 0)&&(f==2)&&(i==2)&&(temp=="")) temp="C";
+    if ((c==0)&&(f==2)&&(i==2)&&(temp=="")) temp="C";
     if ((g==2)&&(e==2)&&(c== 0)&&(temp=="")) temp="C";
     if ((g==2)&&(e== 0)&&(c==2)&&(temp=="")) temp="E";
     if ((g== 0)&&(e==2)&&(c==2)&&(temp=="")) temp="G";
@@ -134,12 +134,12 @@ function checkSpace() {
         if (cf==1) e=2;
     }
     if ((temp=="F")&&(f==0)) {
-        ok=1
+        ok=1;
         if (cf==0) f=1;
         if (cf==1) f=2;
     }
     if ((temp=="G")&&(g==0)) {
-        ok=1
+        ok=1;
         if (cf==0) g=1;
         if (cf==1) g=2;
     }
@@ -171,7 +171,7 @@ function yourChoice(chName) {
     }
 }
 function taken() {
-    alert("That square is already occupied.  Please select another square.")
+    alert("That square is already occupied.  Please select another square.");
     pause=1;
 }
 function myChoice() {
@@ -182,7 +182,7 @@ function myChoice() {
     logicThree();
     checkSpace();
     while(ok==0) {
-        aRandomNumber=Math.random()
+        aRandomNumber=Math.random();
         comp=Math.round((choice-1)*aRandomNumber)+1;
         if (comp==1) temp="A";
         if (comp==2) temp="B";
@@ -199,7 +199,7 @@ function myChoice() {
     process();
 }
 function ended() {
-    alert("The game has already ended. To play a new game click the Play Again button.")
+    alert("The game has already ended. To play a new game click the Play Again button.");
 }
 function process() {
     logicOne();
@@ -214,8 +214,8 @@ function process() {
     if (wn >= 5){
         alert("You got past tic tac toe, you must be at least as smart as that chicken to do that!");
         $(document).ready(function(){
-            $('#Game-TicTacToe').addClass('Hidden');
-            $('#Game-Dots').removeClass('Hidden');
+            $('#tic-tac-toe').addClass('Hidden');
+            $('#dots').removeClass('Hidden');
     });
     }
 }

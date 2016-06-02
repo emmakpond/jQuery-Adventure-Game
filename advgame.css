@@ -4,13 +4,6 @@
 div{
     background-color: white;
 }
-.red {
-    background-color: red;
-}
-.blue {
-    background-color: navy;
-    color: aquamarine;
-}
 .ingredient{
     font-family: fantasy;
     color: midnightblue;
@@ -40,4 +33,8 @@ body{
 }
 ul{
     background-color: #aba9be
+}
+a {
+    text-underline: none;
+    color: black;
 }

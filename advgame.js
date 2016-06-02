@@ -64,12 +64,6 @@ $(document).ready(function(){
         $("#Part4b").fadeOut();
         $("#Part4b2").delay(500).fadeIn();
     });
-    $("#sandwichscramble").click(function(){
-        $("#Sandwich1").fadeOut();
-        $(".startmessage").delay(500).fadeIn();
-        $(body).css("background-image", "url('restaurant-carousel-1.jpg')");
-        $(body).css("background-size", "1500px")
-    });
     $('#playagain').click(function(){
         location.reload();
     });
