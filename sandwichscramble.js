@@ -95,12 +95,12 @@ $(document).ready(function(){
         $(body).css("background-size", "1300px")
     });
     $(secondright).click(function() {
-        $(".secondingredient").fadeOut();
-        $(".thirdingredient").delay(500).fadeIn();
+        $("#secondingredient").fadeOut();
+        $("#thirdingredient").delay(500).fadeIn();
     });
     $(thirdright).click(function() {
-        $(".thirdingredient").fadeOut();
-        $(".fourthingredient").delay(500).fadeIn();
+        $("#thirdingredient").fadeOut();
+        $("#fourthingredient").delay(500).fadeIn();
     });
     $(fourthright).click(function() {
         $("#fourthingredient").fadeOut();
