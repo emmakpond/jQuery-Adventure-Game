@@ -215,7 +215,7 @@ function process() {
         alert("You got past tic tac toe, you must be at least as smart as that chicken to do that!");
         $(document).ready(function(){
             $('#tic-tac-toe').addClass('Hidden');
-            $('#dots').removeClass('Hidden');
+            $('#hangman').removeClass('Hidden');
     });
     }
 }
