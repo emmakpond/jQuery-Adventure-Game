@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="sandwichscramble.css">
-    <script type="text/javascript" src="sandwichscramble.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sandwichscramble.css">
+    <script type="text/javascript" src="javascript/sandwichscramble.js"></script>
+    <title>Sandwich Scramble!!</title>
 </head>
 <body>
 <section id="startmessage">
-    <p id="startmessagee">In this game you will need to memorize the order of the customer and make their meal. If you mess up, you're fired. Click Start to start the game!</p>
+    <p id="startmessagee">In this game you will need to memorize the order of the customer and make their meal. If you mess up, you're fired. If you win, you win the game because you found a job! Click Start to start the game!</p>
     <button type="button" id="start" class="blue">Start</button>
 </section>
 <section id="order" class="Hidden">
@@ -44,7 +44,7 @@
     <button type="button" id="secondright" class="blue"></button>
     <button type="button" id="wrong24"class="wrong2 wrong blue"></button>
 </section>
-<section id="wrong" class="Hidden">
+<section id="wrongmessage" class="Hidden">
     <p>Oops! You messed up their order and now you got fired. Try Again? If you want to play the same order, click Same Order. If you want a new order, click New Order.</p>
     <button type="button" class="sameorder blue">Same Order</button>
     <button type="button" class="neworder blue">New Order</button>
@@ -74,8 +74,9 @@
     <button type="button" id="win" class="blue"></button>
 </section>
 <section id="uwin" class="Hidden">
-    <p id="winmessage">Congratulations! You won the game!! Wanna play again?</p>
-    <button type="button" class="neworder blue">Play Again</button>
+    <p id="winmessage">Congratulations! You got a job and won the game!! Wanna play again?</p>
+    <button type="button"><a href="advgame.html">Play again from beginning</a></button>
+    <button type="button" class="neworder blue">Play Sandwich Scramble again</button>
 </section>
 </body>
 </html>

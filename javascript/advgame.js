@@ -3,13 +3,12 @@ $(document).ready(function(){
     $('#Btn1a').click(function(){
         $("#Home").fadeOut();
         $("#Lunch").delay(500).fadeIn();
-        $(body).css("background-image", "url('../image/bhs.jpg')");
+        $(body).css("background-image", "url('image/bhs.jpg')");
         $(body).css("background-size", "cover")
     });
     $('#Btn1b').click(function(){
         $("#Home").fadeOut();
         $("#NotBHS").delay(500).fadeIn();
-        $(body).animate({backgroundColor: black});
     });
     $('#Btn2a2, #Btn2a3, #Btn2a4, #Btn2a7').click(function(){
         $("#Lunch").fadeOut();
@@ -18,16 +17,16 @@ $(document).ready(function(){
     $('#Btn2a1, #Btn2a6').click(function(){
         $("#Lunch").fadeOut();
         $("#Sandwich1").delay(500).fadeIn();
-        $(body).css("background-image", "url('../image/sandwich.png')");
+        $(body).css("background-image", "url('image/sandwich.png')");
     });
     $('#Btn2a2').click(function(){
-        $(body).css("background-image", "url('../image/burgerm.jpg')");
+        $(body).css("background-image", "url('image/burgerm.jpg')");
     });
     $('#Btn2a3').click(function(){
-        $(body).css("background-image", "url('../image/clem.jpg')");
+        $(body).css("background-image", "url('image/clem.jpg')");
     });
     $('#Btn2a4').click(function(){
-        $(body).css("background-image", "url('../image/arinell1.jpg')");
+        $(body).css("background-image", "url('image/arinell1.jpg')");
     });
     $('#Btn3a1').click(function(){
         $("#Lunch2").fadeOut();
@@ -44,12 +43,12 @@ $(document).ready(function(){
     $('#Btn2b1').click(function(){
         $("#NotBHS").fadeOut();
         $("#Dimension").delay(500).fadeIn();
-        $(body).css("background-image", "url('../image/dimension.jpg')");
+        $(body).css("background-image", "url('image/dimension.jpg')");
     });
     $('#Btn2b2').click(function(){
         $("#NotBHS").fadeOut();
         $("#White-House1").delay(500).fadeIn();
-        $(body).css("background-image", "url('../image/whitehouse.jpg')");
+        $(body).css("background-image", "url('image/whitehouse.jpg')");
     });
     $('#Btn3b1').click(function(){
         $("#Part3b1").fadeOut();
@@ -71,7 +70,7 @@ $(document).ready(function(){
     $("#sandwichscramble").click(function(){
         $("#Sandwich1").fadeOut();
         $(".startmessage").delay(500).fadeIn();
-        $(body).css("background-image", "url('../image/restaurant-carousel-1.jpg')");
+        $(body).css("background-image", "url('image/restaurant-carousel-1.jpg')");
         $(body).css("background-size", "1500px")
     });
     $('#playagain').click(function(){

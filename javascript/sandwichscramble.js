@@ -55,66 +55,66 @@ $(document).ready(function(){
 
 
     $('#start').click(function(){
-        $(".startmessage").fadeOut();
-        $(".order").delay(500).fadeIn();
+        $("#startmessage").fadeOut();
+        $("#order").delay(500).fadeIn();
         $(body).css("background-size", "contain");
-        $(body).css("background-image", "url('../image/menu.jpg')");
+        $(body).css("background-image", "url('image/menu.jpg')");
     });
     $('#readyss').click(function(){
-        $(".order").fadeOut();
-        $(".firstingredient").delay(500).fadeIn();
-        $(body).css("background-image", "url('../image/plate.jpg')");
+        $("#order").fadeOut();
+        $("#firstingredient").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/plate.jpg')");
         $(body).css("background-size", "cover")
     });
     $(firstright).click(function(){
-        $(".firstingredient").fadeOut();
-        $(".secondingredient").delay(500).fadeIn();
+        $("#firstingredient").fadeOut();
+        $("#secondingredient").delay(500).fadeIn();
     });
     $('.wrong1').click(function(){
-        $(".firstingredient").fadeOut();
-        $(".wrongmessage").delay(500).fadeIn();
+        $("#firstingredient").fadeOut();
+        $("#wrongmessage").delay(500).fadeIn();
     });
     $('.wrong2').click(function(){
-        $(".secondingredient").fadeOut();
-        $(".wrongmessage").delay(500).fadeIn();
+        $("#secondingredient").fadeOut();
+        $("#wrongmessage").delay(500).fadeIn();
     });
     $('.wrong3').click(function() {
-        $(".thirdingredient").fadeOut();
-        $(".wrongmessage").delay(500).fadeIn();
+        $("#thirdingredient").fadeOut();
+        $("#wrongmessage").delay(500).fadeIn();
     });
     $('.wrong4').click(function() {
-        $(".fourthingredient").fadeOut();
-        $(".wrongmessage").delay(500).fadeIn();
+        $("#fourthingredient").fadeOut();
+        $("#wrongmessage").delay(500).fadeIn();
     });
     $('.wrong5').click(function() {
-        $(".fifthingredient").fadeOut();
-        $(".wrongmessage").delay(500).fadeIn();
+        $("#fifthingredient").fadeOut();
+        $("#wrongmessage").delay(500).fadeIn();
     });
     $('.wrong').click(function(){
-        $(body).css("background-image", "url('../image/face-palm.jpg')");
+        $(body).css("background-image", "url('image/face-palm.jpg')");
         $(body).css("background-size", "1300px")
     });
     $(secondright).click(function() {
-        $(".secondingredient").fadeOut();
-        $(".thirdingredient").delay(500).fadeIn();
+        $("#secondingredient").fadeOut();
+        $("#thirdingredient").delay(500).fadeIn();
     });
     $(thirdright).click(function() {
-        $(".thirdingredient").fadeOut();
-        $(".fourthingredient").delay(500).fadeIn();
+        $("#thirdingredient").fadeOut();
+        $("#fourthingredient").delay(500).fadeIn();
     });
     $(fourthright).click(function() {
-        $(".fourthingredient").fadeOut();
-        $(".fifthingredient").delay(500).fadeIn();
+        $("#fourthingredient").fadeOut();
+        $("#fifthingredient").delay(500).fadeIn();
     });
     $(win).click(function() {
-        $(".fifthingredient").fadeOut();
-        $(".win").delay(500).fadeIn();
-        $("body").css("background-image", "url('../image/fw.jpg')")
+        $("#fifthingredient").fadeOut();
+        $("#uwin").delay(500).fadeIn();
+        $("body").css("background-image", "url('image/fw.jpg')")
     });
     $('.sameorder').click(function() {
-        $(".wrongmessage").fadeOut();
-        $(".startmessage").delay(500).fadeIn();
-        $("body").css("background-image", "url('../image/restaurant-carousel-1.jpg')")
+        $("#wrongmessage").fadeOut();
+        $("#startmessage").delay(500).fadeIn();
+        $("body").css("background-image", "url('image/restaurant-carousel-1.jpg')")
     });
     $('.neworder').click(function(){
         location.reload();
