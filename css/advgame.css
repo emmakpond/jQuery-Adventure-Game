@@ -39,5 +39,8 @@ button {
 #Game-Snake {
 }
 ul{
-    background-color: #aba9be
+    background-color: #aba9be;
+}
+.hover{
+    background-color: lightblue;
 }
