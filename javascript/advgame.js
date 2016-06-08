@@ -54,17 +54,6 @@ $(document).ready(function(){
         $("#Part3b1").fadeOut();
         $("#Part4b1").delay(500).fadeIn();
     });
-    $('#Btn4b1').click(function(){
-        $("#Dimension").fadeOut();
-        $("#Game-Snake").delay(500).fadeIn();
-        $(body).css("background-image", "none");
-        $(body).css("background-color", "white");
-        $("*").css("padding", "0 0 0 0");
-    });
-    $('#Btn4b2').click(function(){
-        $("#Part4b").fadeOut();
-        $("#Part4b2").delay(500).fadeIn();
-    });
     $("#sandwichscramble").click(function(){
         $("#Sandwich1").fadeOut();
         $("#startmessage").delay(500).fadeIn();
