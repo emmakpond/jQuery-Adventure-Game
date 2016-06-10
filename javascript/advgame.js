@@ -99,7 +99,7 @@ $(document).ready(function(){
     $("#findout").click(function(){
         $("#lies").fadeOut();
         $("#believe").delay(500).fadeIn();
-        $(body).css("background-image", "url('')")
+        $(body).css("background-image", "url('image/oak.jpg')")
     });
     $('#playagain').click(function(){
         location.reload();
