@@ -48,7 +48,7 @@ $(document).ready(function(){
     });
     $('#Btn2b2').click(function(){
         $("#NotBHS").fadeOut();
-        $("#White-House1").delay(500).fadeIn();
+        $("#whitehouse").delay(500).fadeIn();
         $(body).css("background-image", "url('../image/whitehouse.jpg')");
     });
     $('#Btn3b1').click(function(){
