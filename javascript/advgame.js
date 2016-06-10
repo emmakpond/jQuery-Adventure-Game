@@ -31,6 +31,7 @@ $(document).ready(function(){
     $('#Btn3a1').click(function(){
         $("#Lunch2").fadeOut();
         $("#Line-Long").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/death.png')")
     });
     $('#Btn3a2').click(function(){
         $("#Lunch2").fadeOut();
