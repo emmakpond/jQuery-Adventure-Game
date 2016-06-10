@@ -105,8 +105,7 @@ $(document).ready(function(){
         location.reload();
     });
     $("#backtobhs").click(function(){
-        $("#athome").fadeOut();
-        $("#Home").delay(500).fadeIn();
+        location.reload();
     });
     $("button").hover(function(){
         $(this).addClass("hover");},
