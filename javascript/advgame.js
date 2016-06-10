@@ -79,6 +79,7 @@ $(document).ready(function(){
         $("#whitehouse").fadeOut();
         $("#believe").fadeOut();
         $("#athome").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/oak.jpg')");
     });
     $("#leftwh").click(function(){
         $("#whenurun").fadeOut();
@@ -99,7 +100,6 @@ $(document).ready(function(){
     $("#findout").click(function(){
         $("#lies").fadeOut();
         $("#believe").delay(500).fadeIn();
-        $(body).css("background-image", "url('image/oak.jpg')")
     });
     $('#playagain').click(function(){
         location.reload();
@@ -107,6 +107,7 @@ $(document).ready(function(){
     $("#backtobhs").click(function(){
         $("#athome").fadeOut();
         $("#Home").delay(500).fadeIn();
+        $(body).css("background-image", "none");
     });
     $("button").hover(function(){
         $(this).addClass("hover");},
