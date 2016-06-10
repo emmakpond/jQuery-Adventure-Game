@@ -44,3 +44,6 @@ ul{
 .hover{
     background-color: lightblue;
 }
+a:hover {
+    text-underline: none;
+}
