@@ -83,8 +83,9 @@ $(document).ready(function(){
         $(body).css("background-image", "url('image/security.jpg')");
         (body).css("background-size", "1500px");
     });
-    $("#ducks").click(function(){
+    $("#ducks, #ducks1").click(function(){
         $("#whitehouse").fadeOut();
+        $("#believe").fadeOut();
         $("#feedducks").delay(500).fadeIn();
         $(body).css("background-image", "url('image/ducks.JPG')");
     });
@@ -129,15 +130,16 @@ $(document).ready(function(){
         $("#believe").delay(500).fadeIn();
         $(body).css("background-image", "url('image/whitehouse.jpg')");
     });
-    $('#playagain').click(function(){
+    $('#playagain, #restart').click(function(){
         location.reload();
     });
     $("#backtobhs").click(function(){
         location.reload();
     });
     $("#jail").click(function(){
-        $("#tellthetruth").fadeOut();
+        $("#telltruth").fadeOut();
         $("#jaill").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/jail.jpg')")
     });
     $("button").hover(function(){
         $(this).addClass("hover");},
