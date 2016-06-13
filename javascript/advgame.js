@@ -105,6 +105,7 @@ $(document).ready(function(){
     $("#rightwh").click(function(){
         $("#whenurun").fadeOut();
         $("#madeitout").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/whitehouse.jpg')")
     });
     $("#explain").click(function(){
         $("#security").fadeOut();
