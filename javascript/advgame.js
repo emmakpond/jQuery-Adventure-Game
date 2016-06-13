@@ -4,7 +4,7 @@ $(document).ready(function(){
         $("#Home").fadeOut();
         $("#Lunch").delay(500).fadeIn();
         $(body).css("background-image", "url('image/bhs.jpg')");
-        $(body).css("background-size", "cover")
+        $(body).css("background-size", "cover");
     });
     $('#Btn1b').click(function(){
         $("#Home").fadeOut();
@@ -28,10 +28,14 @@ $(document).ready(function(){
     $('#Btn2a4').click(function(){
         $(body).css("background-image", "url('image/arinell1.jpg')");
     });
+    $('#Btn2a5').click(function(){
+        $(body).css("background-image", "none");
+    });
     $('#Btn3a1').click(function(){
         $("#Lunch2").fadeOut();
         $("#Line-Long").delay(500).fadeIn();
-        $(body).css("background-image", "url('image/death.png')")
+        $(body).css("background-image", "url('image/death.png')");
+        $(body).css("background-size", "contain");
     });
     $('#Btn3a2').click(function(){
         $("#Lunch2").fadeOut();
