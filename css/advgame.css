@@ -27,7 +27,7 @@ body{
 }
 * {
     padding:40px 40px 40px 40px;
-    text-underline-mode: none;
+    text-decoration: none;
 }
 button {
     font-family: monospace;
