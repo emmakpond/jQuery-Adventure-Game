@@ -70,43 +70,69 @@ $(document).ready(function(){
     $("#run").click(function(){
         $("#meetthepres").fadeOut();
         $("#whenurun").delay(500).fadeIn();
-        $(body).css("background-image", "url('image/whinside.jpg')")
-        $(body).css("background-size", "1500px")
+        $(body).css("background-image", "url('image/whinside.jpg')");
+        $(body).css("background-size", "1500px");
+    });
+    $("#talkitout").click(function(){
+        $("#meetthepres").fadeOut();
+        $("#talk").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/security.jpg')");
+        (body).css("background-size", "1500px");
     });
     $("#ducks").click(function(){
         $("#whitehouse").fadeOut();
+        $("#feedducks").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/ducks.JPG')");
     });
-    $("#gohome, #gohome1").click(function(){
+    $("#gohome, #gohome1, #gohome2").click(function(){
         $("#whitehouse").fadeOut();
         $("#believe").fadeOut();
+        $("#feedducks").fadeOut();
         $("#athome").delay(500).fadeIn();
         $(body).css("background-image", "url('image/oak.jpg')");
+        $(body).css("background-size", "1500px")
+    });
+    $("#backtowh").click(function(){
+        $("#feedducks").fadeOut();
+        $("#whitehouse").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/whitehouse.jpg')");
     });
     $("#leftwh").click(function(){
         $("#whenurun").fadeOut();
         $("#security").delay(500).fadeIn();
-        $(body).css("background-image", "url('image/security.jpg')")
+        $(body).css("background-image", "url('image/security.jpg')");
     });
     $("#rightwh").click(function(){
         $("#whenurun").fadeOut();
+        $("#madeitout").delay(500).fadeIn();
     });
     $("#explain").click(function(){
         $("#security").fadeOut();
         $("#talk").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/security.jpg')");
     });
     $("#lie").click(function(){
         $("#talk").fadeOut();
         $("#lies").delay(500).fadeIn();
     });
+    $("#truth").click(function(){
+        $("#talk").fadeOut();
+        $("#telltruth").delay(500).fadeIn();
+    });
     $("#findout").click(function(){
         $("#lies").fadeOut();
         $("#believe").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/whitehouse.jpg')");
     });
     $('#playagain').click(function(){
         location.reload();
     });
     $("#backtobhs").click(function(){
         location.reload();
+    });
+    $("#jail").click(function(){
+        $("#tellthetruth").fadeOut();
+        $("#jaill").delay(500).fadeIn();
     });
     $("button").hover(function(){
         $(this).addClass("hover");},
