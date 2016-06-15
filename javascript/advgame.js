@@ -83,10 +83,17 @@ $(document).ready(function(){
         $(body).css("background-image", "url('image/security.jpg')");
         (body).css("background-size", "1500px");
     });
-    $("#ducks").click(function(){
+    $("#ducks, #ducks1").click(function(){
         $("#whitehouse").fadeOut();
         $("#feedducks").delay(500).fadeIn();
         $(body).css("background-image", "url('image/ducks.JPG')");
+    });
+    $("#lunchover1").click(function(){
+        $("#Lunch-Over").fadeOut();
+        $("#Lunch").delay(500).fadeIn();
+        $(body).css("background-image", "url('image/bhs.jpg')");
+        $(body).css("background-size", "cover");
+
     });
     $("#gohome, #gohome1, #gohome2").click(function(){
         $("#whitehouse").fadeOut();
